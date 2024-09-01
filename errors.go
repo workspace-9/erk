@@ -1,4 +1,5 @@
-package errors
+// erk is a kit for errors
+package erk
 
 // Try assumes that err is nil and returns t, otherwise it panics.
 func Try[T any](t T, err error) T {
